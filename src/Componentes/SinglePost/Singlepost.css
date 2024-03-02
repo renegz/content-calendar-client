@@ -1,0 +1,73 @@
+.post{
+    display: flex;
+    flex-direction: column;
+
+    background-color: aliceblue;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+
+    box-sizing: border-box;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+}
+
+.post h3 {
+    color: #242424;
+}
+
+.post hr {
+   margin-block: 5px;
+}
+
+.post div p {
+    color: #242424;
+}
+
+.post div .content-type-post {
+    text-align: center;
+}
+
+.post div a p {
+    text-align: center;
+}
+
+.post .title-post-container {
+    height: 150px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.post .content-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.post div .date-post {
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+.post div .date-post {
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+.post div .url-post {
+    text-decoration: none;
+}
+
+.post div .url-post p {
+    
+    color: #004b9b;
+}
+
+.post div .url-post:hover {
+    scale: 125%;
+    opacity: 70%;
+    transition: 0.25s;
+}
